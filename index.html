@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Tool Tạo Ảnh Các Góc Máy</title>
+    <meta name="description" content="Ứng dụng hỗ trợ tạo ảnh nhân vật đồng nhất với nhiều góc máy khác nhau." />
+    <meta property="og:title" content="Tool Tạo Ảnh Các Góc Máy" />
+    <meta property="og:description" content="Ứng dụng hỗ trợ tạo ảnh nhân vật đồng nhất với nhiều góc máy khác nhau." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              gray: {
+                750: '#262f3f',
+                850: '#161d2b',
+                925: '#0f1420',
+                950: '#0a0d14',
+              },
+              accent: {
+                DEFAULT: '#F59E0B', // Amber gold studio accent
+                hover: '#D97706',
+                light: '#FDE68A',
+                dark: '#B45309'
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body class="bg-[#0a0d14] text-slate-200">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

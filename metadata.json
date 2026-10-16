@@ -1,0 +1,8 @@
+{
+  "name": "Tool Tạo Ảnh Các Góc Máy",
+  "description": "Ứng dụng hỗ trợ tạo ảnh nhân vật đồng nhất với nhiều góc máy khác nhau.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
